@@ -14,7 +14,10 @@
                 ${param.content}
             </div>
             <div id = "footer">
-                by Yu
+                --------------------------------------------------------<br>
+                YA<br>
+                If you dig a hole for someone else, you’ll fall into it.<br>
+                --------------------------------------------------------
             </div>
         </div> 
     </body>
