@@ -23,7 +23,6 @@ public class EditServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.getWriter().append("Served at: ").append(request.getContextPath());
         EntityManager em = DBUtil.createEntityManager();
 
         Message m = em.find(Message.class, Integer.parseInt(request.getParameter("id")));
