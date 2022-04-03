@@ -16,12 +16,12 @@
             <div id= content>
                 ${param.content}
             </div>
-    <footer>
-        <div id = "footer">
-            <h3>YA</h3><br>
-            <h3>If you dig a hole for someone else, you’ll fall into it.</h3><br>
-        </div>
-    </footer>
+            <div id = "footer">
+                --------------------------------------------------------<br>
+                YA<br>
+                If you dig a hole for someone else, you’ll fall into it.<br>
+                --------------------------------------------------------
+            </div>
         </div> 
     </body>
 </html>
