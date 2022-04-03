@@ -27,7 +27,7 @@ public class UpdateServlet extends HttpServlet {
         if (_token != null && _token.equals(request.getSession().getId())) {
             EntityManager em = DBUtil.createEntityManager();
 
-            Message m = em.find(Message.class, (Integer) request.getSession().getAttribute("message_id"));
+            Message m = em.find(Message.class, (Integer) (request.getSession().getAttribute("message_id")));
 
             String title = request.getParameter("title");
             m.setTitle(title);
